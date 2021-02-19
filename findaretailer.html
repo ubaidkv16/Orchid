@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchid</title>
+    <link rel="shortcut icon" href="images/logoCroped-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <!-- 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <script src="/js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function () {
+            $("head").load("head.html");
+        });
+    </script> -->
+
+    <style>
+        /* h1 {
+            color: yellow;
+        }
+
+        p {
+            color: yellow;
+        } */
+        .map-container-4 {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+        }
+
+        .map-container-4 iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="includedContent" class="sticky-top"></div>
+    <br><br>
+    <div class="row first-container">
+        <div class="container">
+            <div class="col-8" style="padding: 4rem 0rem 0rem 4rem;">
+                <h1 class="display-4">Why Buy Locally?</h1>
+                <p class="lead">There are so many reasons to buy New Zealand grown flowers. From overall quality to
+                    value for money – local flowers and foliage are just better. Local flowers are fresher due to fact
+                    they aren’t being flown from other countries.</p>
+                <hr class="my-3">
+                <p>When you buy local your supporting New Zealand growers and their business’. They need florists and
+                    consumers to buy NZ Grown to keep demand high and the industry thriving. Love what’s in season and
+                    pick NZ grown flowers!
+                </p>
+
+            </div>
+        </div>
+        <div class="col-4 inside-main-banner">
+            <img src="/images/buy-locally-text.jpg" width="450rem">
+        </div>
+    </div>
+
+    <br><br>
+    <div class="container-fluid">
+        <div class="row" style="border: 1px;">
+            <div class="col-8" style="background-color:white;">
+                <!--Main layout-->
+                <main class=" m-4 p-5">
+                    <div class="container-fluid m-0 p-0">
+
+                        <!--Google map-->
+                        <div id="map-container-google-4" class="z-depth-1-half map-container-4" style="height: 200px">
+                            <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                </main>
+                <!--Main layout-->
+            </div>
+            <div class="col-sm-4" style="background-color: white;">
+                <br><br><br>
+                <table class="table">
+                    <h4 class="display-6">Find a retailer</h4>
+                    <br>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <img src="images/loc.PNG" alt="" style="width:23px">
+                                Fresh & Save Albany
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>www.freshandsave.co.nz/albany</td>
+                        </tr>
+                        <tr>
+                            <td>8/357 Albany Highway, Rosedale, Albany
+                                Albany Florist</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <img src="images/loc.PNG" alt="" style="width:23px"> Albany Florist
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>albanyflorist.co.nz</td>
+                        </tr>
+                        <tr>
+                            <td>6/51 William Pickering Drive, Albany, Auckland</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <img src="images/loc.PNG" alt="" style="width:23px">Green Bay Florist
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                09 827 3550
+                                58 </td>
+                        </tr>
+                        <tr>
+                            <td>Godley Road, Green Bay, Auckland</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br><br>
+    <div id="footer"></div>
+    <script>
+        $(function () {
+            $("#includedContent").load("navbar.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+    <script src="/js/jquery-3.5.1.min.js"></script>
+</body>
+
+</html>
