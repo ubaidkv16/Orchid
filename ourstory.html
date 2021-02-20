@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchid</title>
+    <link rel="shortcut icon" href="images/logoCroped-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <!-- 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .first-banner-2grid-coloumn-one {
+            padding-top: 5rem;
+        }
+
+        .first-banner-2grid-coloumn-one>.row>.col1 {
+            padding-top: 5rem;
+        }
+
+        .first-banner-2grid-coloumn-one>.row>.col2 {
+            padding: auto;
+        }
+
+        .second-banner-2grid-coloumn-one>.row>.col1>img {
+            width: 40rem;
+            padding-left: 10rem;
+        }
+
+        .third-banner-2grid-coloumn-one>.row>.col2>img {
+            width: 40rem;
+            padding-left: 10rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navigationbar" class="sticky-top"></div>
+    <!-- row one -->
+    <div class="container-fluid first-banner-2grid-coloumn-one">
+        <div class="row">
+            <div class="col-6 col1" style="background-color: white;">
+                <h1 class="display-4">By the industry,
+                    for the industry</h1>
+                <p class="lead">Feel Good With Flowers</p>
+                <hr class="my-3">
+                <p>Feel Good With Flowers sole aim is the promotion of the local flower industry to New Zealander's and
+                    to stimulate and encourage the increased purchasing of New Zealand grown flowers and foliage by both
+                    the general public and commercial organisations.
+                </p>
+
+            </div>
+            <div class="col-6 col2" style="background-color: white;">
+                <img src="/images/story1.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- End row one -->
+    <br><br>
+    <!-- row two -->
+    <div class="jumbotron bg-light second-banner-2grid-coloumn-one"">
+        <div class=" row">
+        <div class="col-6 bg-light col1">
+            <img src="/images/story2.png" class="img-fluid">
+        </div>
+        <div class="col-6 bg-light col2">
+            <h1 class="display-4">History</h1>
+            <p class="lead">The National Flower Promotion Group launched in 2007 as United Flower Growers Ltd saw the
+                need for year-round flower promotions to occur on behalf of the industry.</p>
+            <hr class="my-3">
+            <p>The NFPG helps to support both flower retailers and growers through creative marketing campaigns,
+                promotions and events. The NFPG brand is 'Feel Good With Flowers' which you will see at the forefront of
+                all our campaigns and messaging. We strive to support the industry and ensure the longevity of the NZ
+                Floriculture industry.</p>
+            <p>We want to both educate the NZ consumer and inspire a love for fresh cut flowers.</p>
+
+
+            <img src="images/logo-nfpg-plain.svg" alt="" style="width: 7rem; float: right;">
+        </div>
+    </div>
+    </div>
+    <!-- End row two -->
+    <br><br>
+    <!-- row three -->
+    <div class="container-fluid third-banner-2grid-coloumn-one">
+        <div class="row">
+            <div class="col-6 col1" style="background-color: white;">
+                <h1 class="display-4">Pick NZ Flowers</h1>
+                <p class="lead">We are so lucky in New Zealand that such a vast amount of cut flowers and foliage are
+                    still grown commercially.</p>
+                <hr class="my-3">
+                <p>
+
+                    NZ flower growers work extremely hard to ensure consistent supply of fresh and attractive product
+                    year-round. Most of which you can find at your local flower retailer, just ask if its NZ grown!
+
+                    It’s important to support local business and to ‘PICK NZ!’ when possible!
+                </p>
+                <img src="images/Capture.PNG" alt="" style="width: 7rem; float: left;">
+
+            </div>
+            <div class="col-6 col2" style="background-color: white;">
+                <img src="/images/story3.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- End row three -->
+    <br><br><br>
+
+    <div id="footer"></div>
+    <script>
+        $(function () {
+            $("#navigationbar").load("navbar.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+    <script src="/js/jquery-3.5.1.min.js"></script>
+</body>
+
+</html>
